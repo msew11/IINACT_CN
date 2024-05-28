@@ -1,4 +1,6 @@
-﻿﻿using System;
+﻿
+// Looking for https://github.com/thewakingsands/OverlayPlugin
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -9,7 +11,6 @@ namespace RainbowMage.OverlayPlugin.MemoryProcessors
     public class FFXIVProcessCn : FFXIVProcess
     {
         // Last updated for FFXIV 6.3
-
         [StructLayout(LayoutKind.Explicit)]
         public unsafe struct EntityMemory
         {
